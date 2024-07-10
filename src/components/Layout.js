@@ -56,7 +56,7 @@ const Layout = () => {
   // }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="YoloDeploy">
       {checkUser ? (
         <Route
           render={(props) => (
